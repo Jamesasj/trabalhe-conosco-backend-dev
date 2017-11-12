@@ -2,3 +2,4 @@
 users.csv.gz
 users.csv/users.csv
 PICPAY_APP/DAO/ConexaoDAO.py
+*.pyc
