@@ -1,10 +1,15 @@
 <html>
     <head>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='estilo.css') }}">
+        <script src="{{ url_for('static', filename='jquery-3.1.1.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='app.js') }}"></script>
     </head>
     <body>
-        <h1>JAMES ALVES</h1>
+        <h1>PICPAY</h1>
         <input type="text" name="tx_nome_username" id="tx_nome_username">
-        <button>buscar</button>
+        <button id="pesquisar">buscar</button>
+        <div id="lista_usuarios">
+
+        </div>
     </body>
 </html>
