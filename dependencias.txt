@@ -1,0 +1,5 @@
+pip install Flask
+pip install mongoengine
+
+
+"C:\mongo\bin\mongod.exe" --dbpath d:\mongo\data
