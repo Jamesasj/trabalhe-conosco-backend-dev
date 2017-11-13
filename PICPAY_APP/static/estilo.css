@@ -1,3 +1,63 @@
-h1{
-    color: red;
+body{
+    margin: 0px;
+    background-color: #f5f9f5;
+    font-family: ubuntu, sans-serif;
+}
+header {
+    background: #4cd94c;
+    border-bottom: 3px inset lavenderblush;
+}
+header > h1 {
+    color: #ffffff;
+    left: 32%;
+    top: 1%;
+    position: relative;
+    text-transform: uppercase;
+    font-family: ubuntu, sans-serif;
+    font-size: 93px;
+    width: 503px;
+    margin-bottom: 1px;
+}
+article {
+    padding: 5% 83px 10px 60px;
+}
+.tabela {
+    top: 20px;
+    position: relative;
+}
+.lista_header {
+    font-size: 28px;
+    background: #4cd94c;
+    text-transform: uppercase;
+}
+div#lista_usuarios > div, div.lista_header {
+    display: -webkit-inline-box;
+    width: 100%;
+}
+div#lista_usuarios > div > div, div.lista_header > div {
+    padding-left: 33px;
+}
+div.coluna1,div.coluna2{
+    width: 13%;
+}
+div.coluna3{
+    width: calc(100% - 26%);
+}
+.linha {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+input#tx_nome_username {
+    width: 100%;
+}
+input#tx_nome_username {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-bottom-style: inset;
+    border-bottom-color: #4cd94c;
+    outline: none;
+    background-color: rgba(240, 248, 255, 0);
 }

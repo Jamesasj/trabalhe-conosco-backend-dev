@@ -1,15 +1,26 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}"/>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='estilo.css') }}">
-        <script src="{{ url_for('static', filename='jquery-3.1.1.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='app.js') }}"></script>
+        <script src="{{url_for('static', filename='jquery-3.1.1.min.js')}}"></script>
+        <script src="{{url_for('static', filename='app.js')}}"></script>
+        <title>Desafio Picpey</title>
     </head>
     <body>
-        <h1>PICPAY</h1>
-        <input type="text" name="tx_nome_username" id="tx_nome_username">
-        <button id="pesquisar">buscar</button>
-        <div id="lista_usuarios">
-
-        </div>
+        <header>
+            <h1>Desafio PICPAY</h1>
+        </header>
+        <article>
+            <input type="text" placeholder="Pesquise o usuario" name="tx_nome_username" id="tx_nome_username">
+            <div class="tabela">
+                <div class="lista_header">
+                    <div class="coluna1">Nome</div>
+                    <div class="coluna2">Usuario</div>
+                    <div class="coluna3s">Id</div>
+                </div>
+                <div id="lista_usuarios"></div>
+            </div>
+        </article>
     </body>
 </html>
