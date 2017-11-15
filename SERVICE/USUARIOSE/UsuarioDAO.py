@@ -1,4 +1,4 @@
-from PICPAY_APP.MODELO.UsuarioMO import UsuarioMO
+from USUARIOSE.UsuarioMO import UsuarioMO
 from pymongo import MongoClient
 
 class UsuarioDAO():

@@ -6,4 +6,4 @@ pip install mongoengine
 
 
 
-.\mongod.exe --dbpath "c:\mongo\data"
+    .\mongod.exe --dbpath "c:\mongo\data"

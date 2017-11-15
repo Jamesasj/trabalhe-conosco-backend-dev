@@ -1,0 +1,17 @@
+version: '3'
+services: 
+  database:  
+    image: mongo:3.4.10
+    ports:  
+    - "27017:27017"  
+    volumes:  
+    - "./DADOS/db:/data/db"
+  webapi:
+    build: WEB/.
+    ports: 
+    - "5000:80"
+  servico:
+    build: SERVICE/.
+    ports:
+      - "4000:4000"
+    

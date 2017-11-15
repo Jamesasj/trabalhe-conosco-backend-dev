@@ -2,4 +2,6 @@ DADOS/users.csv
 DADOS/lista_relevancia_1.txt
 DADOS/lista_relevancia_2.txt
 PICPAY_APP/DAO/ConexaoDAO.py
+DADOS/db/*.*
+.vscode
 *.pyc

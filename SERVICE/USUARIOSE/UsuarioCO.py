@@ -1,5 +1,5 @@
-from PICPAY_APP.MODELO.UsuarioMO import UsuarioMO
-from PICPAY_APP.DAO.UsuarioDAO import UsuarioDAO
+from USUARIOSE.UsuarioMO import UsuarioMO
+from USUARIOSE.UsuarioDAO import UsuarioDAO
 
 class UsuarioCO():
     def __init__(self):
